@@ -1,0 +1,10 @@
+.ContactData{
+    width:80%;
+    text-align: center;
+    border:1px solid #ccc;
+    margin:10px auto;
+}
+.ContactData Button{
+    display:block;
+    margin:10px auto;
+}

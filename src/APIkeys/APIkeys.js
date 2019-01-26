@@ -1,0 +1,1 @@
+export const GoogleAuthAPI = "AIzaSyDhmTf1Fbexvuh0-BbLhKlBvZwZjuS8d3c";

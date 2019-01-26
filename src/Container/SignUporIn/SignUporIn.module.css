@@ -1,0 +1,16 @@
+.SignUporIn{
+    width:50%;
+    text-align: center;
+   margin:10px auto;
+}
+.Form{
+    width:80%;
+    border:1px solid #ccc;
+    margin:20px auto;
+
+}
+@media(max-width:400px){
+    .SignUporIn{
+        width:70%;
+    }
+}

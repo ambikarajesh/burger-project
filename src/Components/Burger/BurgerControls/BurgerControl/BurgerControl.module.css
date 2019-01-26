@@ -1,0 +1,54 @@
+.BurgerControl{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin:2px auto; 
+}
+.BurgerControl button{
+    display:block;
+    padding:5px;
+    width:30%;
+    border:1px solid #022E55;
+    cursor: pointer;
+    outline:none;
+    font-family: inherit;
+    border-radius: 5px 5px;  
+    margin:0 5px;  
+}
+.Label{
+    padding:5px;
+    font-weight: bold;
+    width:30%;
+    text-transform: capitalize;
+}
+.BurgerControl .Less {  
+    background-color:#1D5A91;
+    color: white;
+}
+
+.BurgerControl .More {
+    background-color: #063663;
+    color: white;
+}
+.BurgerControl .Less:hover, .BurgerControl .Less:active {  
+    background-color: #64A9E7;
+    color: white;
+}
+
+.BurgerControl .More:hover,.BurgerControl .More:active {
+    background-color: #1586EC;
+    color: white;
+}
+.BurgerControl button:disabled {
+    background-color: #C7C6C6;
+    border: 1px solid #7E7365;
+    color: #888888;    
+}
+
+.BurgerControl button:hover:disabled {
+    background-color: #C7C6C6;
+    color: #eee;
+    cursor: not-allowed;
+}
+

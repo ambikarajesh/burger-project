@@ -1,0 +1,32 @@
+.NavItem{
+    margin:10px 0;
+}
+.NavItem a{
+    text-decoration: none;
+    color:#063663;
+    font-size: 14px;
+}
+
+.NavItem a:hover, .NavItem a:active, .NavItem a.active{
+   color: aqua;
+}
+
+@media(min-width:400px){
+    .NavItem{
+        height:100%;
+        box-sizing: border-box;
+    }
+    .NavItem a{
+        color:#fff;
+        height:100%;
+        padding:10px;
+        box-sizing: border-box;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavItem a:hover, .NavItem a:active, .NavItem a.active{
+        background-color: #063663;
+        border-bottom-color: aqua;
+    }
+     
+}

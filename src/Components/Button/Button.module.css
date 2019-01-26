@@ -1,0 +1,55 @@
+.Button{
+    outline: none;
+    cursor: pointer;
+    color:#fff;
+    padding:10px 30px;
+    margin: 10px;
+    font-size:12px;
+    font-family: inherit;
+    border-radius: 5px 5px;
+    border:none;
+    font-weight: bold; 
+    box-shadow: 0 2px 1px #ccc;
+    width:135px;
+}
+
+.Button:hover, .Button:active{
+    background-color: #2FA053;
+    color:#ccc;
+}
+
+.Button:disabled{
+    cursor:not-allowed;
+    background-color: #C7C6C6;
+    color:#888888;
+    border:1px solid #ccc;
+    box-shadow: 0 2px 1px #ccc;
+
+}
+.Button:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+.Cancel, .AuthOut{
+    color:#fff;
+    background-color: #3B4A58;
+    border:1px solid #3B4A58;
+    box-shadow: 0 2px 1px #3B4A58;
+}
+.Continue, .AuthIn{
+    color:#000;
+    background-color:aqua;
+    border:1px solid aqua;
+    box-shadow: 0 2px 1px aqua;
+}
+
+.Cancel:hover, .AuthOut:hover{
+    color:#eee;
+    background-color: #3B4A58;
+    
+}
+
+.Continue:hover, .AuthIn:hover{
+    color:#444;
+    background-color:aqua;
+}
+

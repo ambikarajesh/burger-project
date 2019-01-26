@@ -1,0 +1,31 @@
+.Input{
+    width:100%;
+    display:inline-block;
+    margin:10px auto;
+    box-sizing: border-box;
+
+}
+.InputValid{
+   padding:5px;
+   width:50%;
+   font-family: inherit;
+   outline:none; 
+   border:1px solid #666;  
+}
+.InputinValid{
+    padding:5px;
+    width:50%;
+    font-family: inherit;
+    outline:none;
+    border:1px solid red;
+}
+.InputValid:focus{
+    border:2px solid #666;
+}
+.InputinValid:focus{
+    border:2px solid red;
+}
+.Label{
+    padding:5px 20px;
+
+}
